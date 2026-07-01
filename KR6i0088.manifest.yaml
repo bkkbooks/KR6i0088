@@ -1,0 +1,102 @@
+canonical_identifier: bkk:krp/KR6i0088/v1
+canonical_location: https://kanripo.org/bkk/KR6i0088/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 維摩經義記卷第四
+  identifiers:
+    alt_id:
+    - T85n2769
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2769.xml
+    old_id: T85n2769
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0088_000.yaml, hash: 'sha256:8f2ac555e197c924896798e71910bda4267f6b2c34dd5699bf5282f590cf8749'}
+  - {seq: 4, filename: KR6i0088_004.yaml, hash: 'sha256:17eea1fd17af8323cf53a530c3dfa43fc25b44fad457a0fc61f008cfbc792565'}
+  markers:
+  - {seq: 4, role: markers, filename: assets/KR6i0088_004.markers.yaml, hash: 'sha256:881d1ee36fb5897c65341681fb71365a6e8f1793c576dade9137600b0b7a606d'}
+table_of_contents:
+- ref:
+    seq: 4
+    marker_id: KR6i0088_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 21709
+  label: 維摩經義記卷第四
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0088_T_004-mulu-1
+    span:
+    - body
+    - 4161
+    - 4161
+  label: 入不二法門品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0088_T_004-mulu-2
+    span:
+    - body
+    - 6880
+    - 6880
+  label: 香積佛品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0088_T_004-mulu-3
+    span:
+    - body
+    - 10229
+    - 10229
+  label: 菩薩行品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0088_T_004-mulu-4
+    span:
+    - body
+    - 15622
+    - 15622
+  label: 見阿閦佛品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0088_T_004-mulu-5
+    span:
+    - body
+    - 18710
+    - 18710
+  label: 法供養品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6i0088_T_004-mulu-6
+    span:
+    - body
+    - 20927
+    - 20927
+  label: 囑累品
+  type: mulu
+  level: 1
+hash: sha256:438272f7a369946ee6859bc7599c9cf11f8c0c4502ff547f49fa23acdcd9abb9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
